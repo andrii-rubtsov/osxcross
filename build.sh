@@ -27,6 +27,7 @@ case $SDK_VERSION in
       ;;
 esac
 
+echo "Determining version support: $SDK_VERSION"
 
 case $SDK_VERSION in
   10.6*)  TARGET=darwin10; X86_64H_SUPPORTED=0; I386_SUPPORTED=1; ARM_SUPPORTED=0; NEED_TAPI_SUPPORT=0; OSX_VERSION_MIN_INT=10.6;  ;;
